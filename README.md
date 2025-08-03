@@ -1,4 +1,4 @@
-# Flask CRUD App
+# Flask Blueprint App
 
 Este é um projeto muito simples e bobo usando Blueprints no Flask.
 
