@@ -1,0 +1,41 @@
+# Flask CRUD App
+
+Este é um projeto muito simples e bobo usando Blueprints no Flask.
+
+## Como rodar o projeto
+
+1. **Clone o repositório:**
+
+2. **Crie e ative um ambiente virtual (opcional):**
+   ```bash
+   python3 -m .venv venv
+   source .venv/bin/activate
+   ```
+
+3. **Instale as dependências:**
+   ```bash
+   pip install flask flask-sqlalchemy flask-migrate
+   ```
+
+4. **Defina a variável de ambiente do Flask:**
+   ```bash
+   export FLASK_APP=run:create_app
+   ```
+
+5. **Inicialize o banco de dados:**
+   ```bash
+   flask db init
+   flask db migrate
+   flask db upgrade
+   ```
+
+6. **Rode o servidor Flask:**
+   ```bash
+   flask run --debug
+   ```
+
+7. **Acesse o app no navegador:**
+   ```
+   http://localhost:5000
+   ```
+
