@@ -1,6 +1,7 @@
 # Flask Blueprint App
 
 Este é um projeto muito simples e bobo usando Blueprints no Flask.
+https://www.youtube.com/watch?v=oQ5UfJqW5Jo
 
 ## Como rodar o projeto
 
